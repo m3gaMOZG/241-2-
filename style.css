@@ -1,26 +1,22 @@
 
-.menu-2 {
+.menu-3 {
   display: flex;
-  flex-direction: column;
-  width: 240px;
-  gap: 8px;
+  background-color: #1FA07A;
+  width: 600px; 
 }
 
 
-.menu-2 a {
-  padding: 12px 20px;
+.menu-3 a {
+  padding: 12px 28px;
   font: 15px Arial, sans-serif;
   text-decoration: none;
-  color: #FFFFFF;
+  color: white;
   background-color: #1FA07A;
-  border: 1px solid #1FA07A;
-  text-align: left;
-  transition: 0.2s;
+  transition: background-color 0.2s;
 }
 
 
-.menu-2 a:hover,
-.menu-2 a.active {
-  color: #1FA07A;
-  background-color: #FFFFFF;
+.menu-3 a:hover,
+.menu-3 a.active {
+  background-color: #157357;
 }
